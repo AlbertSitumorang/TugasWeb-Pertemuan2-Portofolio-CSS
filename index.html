@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert Prasetyo Situmorang — Mahasiswa Ilmu Komputer &amp; Calon Praktisi Keamanan Siber</title>
+  <meta name="description" content="Landing page pribadi Albert Prasetyo Situmorang, mahasiswa Ilmu Komputer UNIMED yang sedang menekuni pemrograman Java, pengembangan web, dan keamanan siber.">
+  <meta name="author" content="Albert Prasetyo Situmorang">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Albert Prasetyo Situmorang — Ilmu Komputer UNIMED">
+  <meta property="og:description" content="Portofolio pribadi: proyek Java, pengembangan web, dan perjalanan menuju keamanan siber.">
+  <meta property="og:image" content="assets/avatar.svg">
+  <meta property="og:locale" content="id_ID">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="container">
+      <a href="#top" class="brand"></a>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-copy">
+          <p class="eyebrow">Status: dalam pelatihan</p>
+          <h1 id="hero-heading">Albert Prasetyo&nbsp;Situmorang</h1>
+          <p>Saya adalah mahasiswa Ilmu Komputer di Universitas Negeri Medan yang sedang membangun fondasi di pemrograman Java dan pengembangan web, dengan tujuan akhir berkarier di bidang keamanan siber.</p>
+          <div class="hero-actions">
+            <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section" aria-labelledby="tentang-heading">
+      <div class="container about-grid">
+        <h2>Tentang Saya</h2>
+        <article class="about-text">
+          <div class="section-head">
+            <span class="index">01</span>
+            
+          </div>
+
+          <figure>
+            <img src="e91d50af-b13b-44de-86fd-7ecc12add56e.jpg" alt="Ilustrasi kartu identitas bergaya keamanan siber bertuliskan A. P. Situmorang, dengan lambang perisai dan gembok sebagai representasi minat pada keamanan siber">
+            <figcaption>Kartu identitas digital — dirancang sendiri untuk mencerminkan minat pada keamanan siber.</figcaption>
+          </figure>
+
+          <p>Saya lahir di Limapuluh pada <time datetime="2007-11-16">16 November 2007</time> dan merupakan anak bungsu dari tiga bersaudara. Semasa sekolah saya cenderung pendiam dan memiliki sedikit teman, tetapi sejak berkuliah saya menjadi jauh lebih aktif dan terbuka secara sosial.</p>
+
+          <h3>Fokus Akademik</h3>
+          <p>Saat ini saya menempuh Program Studi Ilmu Komputer di FMIPA Universitas Negeri Medan. Perkuliahan saya banyak bersinggungan dengan pemrograman berorientasi objek (Java), statistika, dan pengembangan aplikasi web — semua saya jadikan bekal menuju karier di keamanan siber.</p>
+
+          <h3>Di Luar Kelas</h3>
+          <p>Waktu luang biasanya saya isi dengan berenang dan mendengarkan musik — dua hal yang membantu saya tetap fokus di sela-sela mengerjakan proyek pemrograman.</p>
+        </article>
+
+        <aside class="quick-facts" aria-labelledby="quick-facts-heading">
+          <h2 id="quick-facts-heading">Data Singkat</h2>
+          <dl>
+            <dt>NIM</dt>
+            <dd>4252250006</dd>
+            <dt>Kelas</dt>
+            <dd>PSIK 25 B</dd>
+            <dt>Kampus</dt>
+            <dd>UNIMED — FMIPA</dd>
+            <dt>Lahir</dt>
+            <dd><time datetime="2007-11-16">16 Nov 2007</time>, Limapuluh</dd>
+            <dt>Hobi</dt>
+            <dd>Berenang, musik</dd>
+            <dt>Target Karier</dt>
+            <dd>Keamanan Siber</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+    
+    <section id="kontak" class="section" aria-labelledby="kontak-heading">
+     <div class="container contact-grid"> 
+          <div class="section-head">
+            <h2 id="kontak-heading">Hubungi Saya</h2>
+            <span class="index">04</span> 
+          </div>
+
+          <form id="contact-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" required minlength="3" placeholder="Nama Anda">
+              </div>
+              <div class="field">
+                <label for="email">Alamat Email</label>
+                <input type="email" id="email" name="email" required placeholder="nama@email.com">
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="4" required minlength="10" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="contact-date">Tanggal Ingin Dihubungi</label>
+                <input type="date" id="contact-date" name="contact-date">
+                <small>Opsional — pilih kapan Anda ingin saya membalas.</small>
+              </div>
+              <div class="field">
+                <label for="theme-color">Warna Favorit untuk Tema Portofolio</label>
+                <input type="color" id="theme-color" name="theme-color" value="#4fd1c5">
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="interest-level">Seberapa tertarik Anda pada topik keamanan siber?</label>
+              <div class="range-row">
+                <input type="range" id="interest-level" name="interest-level" min="0" max="10" value="7">
+                <output id="interest-level-output" for="interest-level">7</output>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+       
+
+        <aside class="contact-info" aria-labelledby="contact-info-heading">
+          <h3 id="contact-info-heading">Informasi Lain</h3>
+          <ul>
+            <li>Program Studi Ilmu Komputer, FMIPA UNIMED</li>
+            <li>Kelas PSIK 25 B</li>
+            <li>Terbuka untuk diskusi seputar Java, web, dan keamanan siber</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <time id="current-year" datetime="2026">2026</time> Albert Prasetyo Situmorang. Semua hak cipta dilindungi.</p>
+    <a href="#top" class="back-to-top">Kembali ke atas ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
